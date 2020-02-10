@@ -1,0 +1,19 @@
+/* hacemos que el 'body' tenga una imagen de fondo*/
+
+body{
+background-size:cover; /*Que la imagen ocupe toda la página*/
+/*Añadimos transparencia a la imagen de fondo*/
+background-image: linear-gradient(to bottom, rgba(0,0,0,0.9)0%, rgba(0,0,0,0.9) 100%), url(../figuras/dragonball.jpeg);
+}
+
+/* Definimos la clase 'center' para que las tablas esten centradas en la página*/
+
+table.center {
+	margin-left:auto;
+	margin-right:auto;
+  }
+/* Establecemos el formato para los encabezados h3,h4 y loa párrafos p */
+
+h3 {color:yellow; font-size:18pt;}
+h4 {color:blue;}
+p {color:white; font-size:16pt; font-family:"Verdana",sans-serif;}
